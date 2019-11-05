@@ -1,9 +1,36 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Lato Regular, sans-serif;
 }
 
-body {
-  background-color: purple;
+.header {
+  padding-top: 34px;
+  padding-bottom: 94px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1e1e1e), to(rgba(30, 30, 30, 0)));
+  background-image: linear-gradient(to bottom, #1e1e1e 0%, rgba(30, 30, 30, 0) 100%);
+  opacity: 0.7;
+}
+
+.header-logo {
+  text-decoration: none;
+  color: #5a5a5a;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.header-tel {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header-button {
+  color: #d91233;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
